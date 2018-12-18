@@ -1,0 +1,58 @@
+.main{
+    margin-top: -20px;
+}
+.header h1{
+    font-family: Berkshire Swash;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 90px;
+    text-align: center;
+    color: #CC9900;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+
+.header img {
+    margin: 20px;   
+}
+
+.sub-header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 45px;
+    text-align: center;
+    color: #000000; 
+}
+
+
+.buttons button{
+    background: #000000;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 32px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    width: 240px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.buttons{
+    text-align: center;
+    margin-bottom: -200px;
+}
+
+.curve img{
+    margin-left: -10px;
+}
