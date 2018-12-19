@@ -38,7 +38,7 @@
     }
 
     .containers{
-        display: inline;
+        flex-wrap: wrap;
     }
 
     .about h1{

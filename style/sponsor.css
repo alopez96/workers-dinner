@@ -1,0 +1,56 @@
+.sponsor{
+    margin: 150px;
+}
+
+.sponsor h1{
+    font-family: Berkshire Swash;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #CC9900;
+    width: 100%;
+}
+
+
+.card3{
+    padding: 50px;
+    background-color: #E0E0E0;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    text-align: center;
+}
+
+
+.card3 p{
+    font-family: Montserrat;
+}
+.card3 h5{
+    font-family: Montserrat;
+}
+
+.card3 h4{
+    font-family: Berkshire Swash;
+}
+
+
+
+
+
+/* phone screen */
+@media only screen and (max-width: 450px) {
+    .sponsor{
+        margin: 50px;
+    }
+    
+    .sponsor h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .card3{
+        padding: 20px;
+    }    
+}
