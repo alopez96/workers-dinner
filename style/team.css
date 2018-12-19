@@ -10,20 +10,33 @@
 }
 
 .team{
-    margin: 50px;
+    margin: 150px 0px 150px 0px;    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .team img{
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     margin: 20px;
-    border: #9B51E0 3px solid;
+    object-fit: cover;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.25);
 }
 
 .person h6{
     text-align: center;
+    font-family: Berkshire Swash;
+    color: #9B51E0;
+    font-weight: normal;
+    font-size: 24px;
 }
 
+.jess{
+    transform: rotate(90deg); 
+}
+
+.francia{
+    object-position: 0px 1%;
+}
