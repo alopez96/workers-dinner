@@ -1,0 +1,29 @@
+.team h1{
+    font-family: Berkshire Swash;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #CC9900;
+    width: 100%;
+}
+
+.team{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team img{
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
+    border: #9B51E0 3px solid;
+}
+
+.person h6{
+    text-align: center;
+}
+
