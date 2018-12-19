@@ -41,6 +41,10 @@
     object-position: 0px 1%;
 }
 
+.jackie{
+    transform: rotate(-90deg); 
+}
+
 
 #logo{
     border-radius: 0px;
