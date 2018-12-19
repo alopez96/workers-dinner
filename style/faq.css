@@ -34,3 +34,23 @@
 .card1 h4{
     font-family: Berkshire Swash;
 }
+
+
+
+
+
+/* phone screen */
+@media only screen and (max-width: 450px) {
+    .faq{
+        margin: 50px;
+    }
+    
+    .faq h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .card1{
+        padding: 20px;
+    }    
+}

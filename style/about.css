@@ -27,14 +27,25 @@
 }
 
 
+
+
+/* phone screen */
 @media only screen and (max-width: 450px) {
     .card{
-        width:400px;
-        padding: 20px;
-        margin: 10px;
+        width:70%;
+        padding: 10px;
+        margin: 5px;
     }
 
     .containers{
         display: inline;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .about{
+        margin: 150px 0px 150px 0px;
     }
 }
