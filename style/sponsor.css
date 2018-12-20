@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.sponsor h3{
+    width:100%;
+    text-align: center;
+}
 .sponsor h1{
     font-family: Berkshire Swash;
     font-style: normal;
@@ -48,8 +52,6 @@
 }
 
 
-
-
 /* phone screen */
 @media only screen and (max-width: 450px) {
     .sponsor{
@@ -63,5 +65,12 @@
     
     .card3{
         padding: 20px;
-    }    
+    } 
+    
+    .sponsor img{
+        margin: 20px;
+        width: 260px;
+        height: 130px;
+        object-fit: cover;
+    }
 }
