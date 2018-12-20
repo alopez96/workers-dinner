@@ -3,6 +3,8 @@ var arrayLang = {
       'header': 'On The Workers Side',
       'sub-header': 'Join Our dinner!',
       'about-btn': 'About',
+      'org-btn': 'Organizers',
+      'about': 'About',
       'about-p1': 'On the Workers’ Side will be a dinner where ' + 
       'we will be inviting the campus workers and their families to join ' + 
       'students who support them and want to get to know them.',
@@ -35,8 +37,10 @@ var arrayLang = {
     },
       'sp': {
         'header': 'Al Lado De Los Trabajadores',
-        'sub-header': 'Acompáñenos en nuestra cena',
+        'sub-header': 'Acompáñenos en nuestra cena!',
         'about-btn': 'Sobre el evento',
+        'org-btn': 'Organizadores',
+        'about': 'Sobre el evento',
         'about-p1': 'Al Lado De Los Trabajadores será una cena donde vamos a ' + 
         'invitar a los trabajadores de la universidad y a sus  ' + 
         'familias para acompañar a los estudiantes que los apoyan y ' +
@@ -65,7 +69,7 @@ var arrayLang = {
         'questions':' Si tiene más preguntas, por favor contacte a ' +
         'Arturo Lopez a alopez96@ucsc.edu',
         'sponsors': 'Patrocinadores',
-      'sponsor-sub': 'Gracias a todos los que nos han apoyado!',
+        'sponsor-sub': 'Gracias a todos los que nos han apoyado!',
       }
   };
 
