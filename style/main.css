@@ -1,6 +1,20 @@
 .main{
-    margin: 20px 0px 200px 0px;
+    margin: 60px 0px 200px 0px;
 }
+
+.lang-buttons button{
+    width: 250px;
+    background: #1D4573;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    width: 220px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
 .header h1{
     font-family: Berkshire Swash;
     font-style: normal;

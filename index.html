@@ -24,22 +24,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 <script src="semantic/dist/semantic.min.js"></script>
     <script src="./main.js"></script>
+    <script src="./translation.js"></script>
 </head>
 <body>
+
+    <nav class="navbar navbar-default 
+        navbar fixed-top navbar-light bg-light
+        navbar-fixed-top">
+        <div class="container lang-buttons">
+          <button class="translate" id="en" >English</button>
+        <button class="translate" id="sp" >Spanish</button>
+        </div>
+      </nav>
 
     <div>
         <div class="main">
             <div class="header">
                 <img src="./svg/diamond.svg" alt="">
-                <h1>On The Workers' Side</h1>
+                <h1 class="lang" key="header">On The Workers' Side</h1>
                 <img src="./svg/diamond.svg" alt="">
             </div>
             <div class="sub-header">
-                <h3>Join Our Dinner!</h3>
+                <h3 class="lang" key="sub-header">Join Our Dinner!</h3>
             </div>
             <div class="buttons">
                 <div>
-                    <button id="about-btn" goto="about" >
+                    <button class="lang" key="about-btn"
+                     id="about-btn" goto="about" >
                         About
                     </button>
                 </div>
@@ -62,13 +73,13 @@
                     <div>
                         <img src="" alt="">
                     </div>
-                    <p>
+                    <p class="lang" key="about-p1">
                         On the Workers’ Side will be a dinner where
                         we will be inviting the campus workers and their
                         families to join students who support them and
                         want to get to know them.
                     </p>
-                    <p>
+                    <p class="lang" key="about-p2">
                         The purpose of the event is to show
                         our appreciation to the laboreres on this
                         campus and to connect with them on a more 
@@ -76,22 +87,21 @@
                     </p>
                 </div>
                 <div class="second card">
-                    <h6>When?</h6>
-                    <p>February 16, 2019</p>
-                    <h6>Where?</h6>
-                    <p>Kresge Town Hall</p>
-                    <h6>Who?</h6>
-                    <p>UCSC campus workers, students and supporters</p>
-                    <h6>What?</h6>
-                    <p>Dinner</p>
+                    <h6 class="lang" key="when">When?</h6>
+                    <p class="lang" key="date">February 16, 2019</p>
+                    <h6 class="lang" key="where">Where?</h6>
+                    <p class="lang" key="location">Kresge Town Hall</p>
+                    <h6 class="lang" key="who">Who?</h6>
+                    <p class="lang" key="invited">UCSC campus workers, students and supporters</p>
+                    <h6 class="lang" key="what">What?</h6>
+                    <p class="lang" key="dinner">Dinner</p>
                 </div>
             </div>
         </div>
 
 
         <div class="team" id="team">
-                <!-- <img id='logo' src="./svg/logo.svg" alt=""> -->
-                <h1>Team</h1>
+                <h1 class="lang" key="team">Team</h1>
             <div class="person"> 
                 <img src="./team/arturo.JPG" alt="">
                 <h6>Arturo</h6>
@@ -124,26 +134,26 @@
 
 
         <div class="faq">
-            <h1>FAQ</h1>
+            <h1 class="lang" key="faq">FAQ</h1>
             <div class="card1">
                 <div class="question">
-                    <h4>If I am worker, how can sign up?</h4>
-                    <p> - Contact Francia at fcruzsil@ucsc.edu </p>
+                    <h4 class="lang" key="q1">If I am worker, how can sign up?</h4>
+                    <p class="lang" key="a1"> - Contact Francia at fcruzsil@ucsc.edu </p>
                 </div>
                 <div class="question">
-                        <h4>If I am a student, how can I sign up?</h4>
-                        <p> - Contact Arturo at alopez96@ucsc.edu</p>
+                        <h4 class="lang" key="q2">If I am a student, how can I sign up?</h4>
+                        <p class="lang" key="a2"> - Contact Arturo at alopez96@ucsc.edu</p>
                     </div>
                     <div class="question">
-                        <h4>Can I volunteer for the event?</h4>
-                        <p>- Yes, contact Jessica at jvaldeza@ucsc.edu</p>
+                        <h4 class="lang" key="q3">Can I volunteer for the event?</h4>
+                        <p class="lang" key="a3">- Yes, contact Jessica at jvaldeza@ucsc.edu</p>
                     </div>
                     <div class="question">
-                        <h4>How can I help fund the event?</h4>
-                        <p>- Contact Arturo at alopez96@ucsc.edu</p>
+                        <h4 class="lang" key="q4">How can I help fund the event?</h4>
+                        <p class="lang" key="a4">- Contact Arturo at alopez96@ucsc.edu</p>
                     </div>
                     <div class="question">
-                        <h5>
+                        <h5 class="lang" key="questions">
                             If you have any further questions,
                             please contact Arturo Lopez at alopez96@ucsc.edu
                         </h5>
@@ -153,7 +163,7 @@
 
 
         <div class="sponsor">
-            <h1>sponsors</h1>
+            <h1 class="lang" key="sponsors">sponsors</h1>
             <h3>Thank you to everyone who has supported us!</h3>
             <div class="card3">
                 <img src="./sponsors/kresge.jpg" alt="">
