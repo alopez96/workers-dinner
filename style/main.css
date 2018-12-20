@@ -8,11 +8,10 @@
 
 .lang-buttons button{
     background: rgb(10, 29, 51);
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: Roboto;
     font-size: 16px;
     padding: 10px 0px 10px 0px;
-    text-align: center;
     width: 150px;
     color: #FFFFFF;
     margin: 5px;
@@ -75,6 +74,7 @@
 
 .curve img{
     margin-left: -10px;
+    margin-top: -30px;
 }
 
 
@@ -107,7 +107,10 @@
         font-size: 10px;
         padding: 10px 0px 10px 0px;
         text-align: center;
-        margin: 5px;
+    }
+
+    .lang-buttons{
+        margin-right: 50px;
     }
 
     .header h1{

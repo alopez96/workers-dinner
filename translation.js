@@ -53,7 +53,7 @@ var arrayLang = {
         'where': 'Donde?',
         'location': 'Kresge Town Hall',
         'who': 'Quien?',
-        'invited': 'Los trabajadores, estudiantes, and apoyadores de los trabajadores de la Universidad de California, Santa Cruz.',
+        'invited': 'Los trabajadores, estudiantes, y apoyadores de los trabajadores de la Universidad de California, Santa Cruz.',
         'what': 'Que es?',
         'dinner': 'Una cena',
         'team': 'Los organizadores',
