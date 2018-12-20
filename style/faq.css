@@ -35,7 +35,13 @@
     font-family: Berkshire Swash;
 }
 
+.question{
+    margin: 0px 0px 30px 0px;
+}
 
+.question h4{
+    margin-bottom: 1px;
+}
 
 
 

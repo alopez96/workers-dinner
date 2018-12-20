@@ -1,3 +1,11 @@
+
+.team{
+    margin: 0px 0px 150px 0px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .team h1{
     font-family: Berkshire Swash;
     font-style: normal;
@@ -7,13 +15,6 @@
     text-align: center;
     color: #CC9900;
     width: 100%;
-}
-
-.team{
-    margin: 150px 0px 150px 0px;    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .team img{
