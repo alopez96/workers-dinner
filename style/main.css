@@ -2,15 +2,18 @@
     margin: 60px 0px 200px 0px;
 }
 
+.lang-buttons{
+    text-align: center;
+}
+
 .lang-buttons button{
-    width: 250px;
-    background: #1D4573;
+    background: rgb(10, 29, 51);
     border-radius: 50px;
     font-family: Roboto;
     font-size: 16px;
     padding: 10px 0px 10px 0px;
     text-align: center;
-    width: 220px;
+    width: 150px;
     color: #FFFFFF;
     margin: 5px;
 }
@@ -98,6 +101,15 @@
         margin: 20px 0px 0px 0px;
         width:100%;
     }
+
+    .lang-buttons button{
+        width: 50px;
+        font-size: 10px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        margin: 5px;
+    }
+
     .header h1{
         font-size: 30px;
     }
