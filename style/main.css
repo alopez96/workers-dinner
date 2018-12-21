@@ -1,3 +1,7 @@
+.all{
+    background-image: url('./../svg/Desktop.svg')
+}
+
 .main{
     margin: 60px 0px 200px 0px;
 }
@@ -40,14 +44,13 @@
 
 .sub-header{
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 45px;
     text-align: center;
     color: #000000; 
 }
 
+.sub-header h3{ 
+    font-size: 35px;
+}
 
 .buttons button{
     background: #1D4573;
@@ -94,6 +97,9 @@
     color:black;
 }
 
+.footer img{
+    width: 23px;
+}
 
 /* phone screen */
 @media only screen and (max-width: 450px) {
@@ -123,7 +129,7 @@
     }
     
     .sub-header h3{ 
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .buttons{

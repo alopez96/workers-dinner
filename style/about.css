@@ -1,5 +1,7 @@
 .about{
     margin: 60px 0px 200px 0px;
+    background-image: url('./../svg/back.png');
+    
 }
 
 .about h1{
