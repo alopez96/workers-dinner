@@ -21,7 +21,7 @@ var arrayLang = {
       'dinner': 'Dinner',
       'team': 'Team',
       'faq': 'FAQ',
-      'q1': 'If I am worker, how can sign up?',
+      'q1': 'If I am worker, how can I sign up?',
       'a1': '- Contact Francia at fcruzsil@ucsc.edu',
       'q2': 'If I am a student, how can I sign up?',
       'a2': '- Contact Arturo at alopez96@ucsc.edu',
