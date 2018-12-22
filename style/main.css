@@ -76,8 +76,8 @@
 }
 
 .curve img{
-    margin-left: -10px;
     margin-top: -30px;
+    width: 100%;
 }
 
 
@@ -144,7 +144,7 @@
     
     .curve img{
         margin-left: 0px;
-        width: 400px;
+        width: 100%;
         object-fit: cover;
     }
 }
