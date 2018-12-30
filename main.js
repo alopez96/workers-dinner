@@ -18,3 +18,35 @@ $(document).ready(function(){
 });
 
 
+function english() { 
+  mixpanel.track("english button", { 
+    "button": "eng", 
+  });
+}
+
+
+function spanish() {
+  mixpanel.track("spanish button", { 
+    "button": "spanish", 
+  });
+}
+
+
+function about() {
+  mixpanel.track("about button", { 
+    "button": "about", 
+  });
+}
+
+function org() {
+  mixpanel.track("orgaizers button", { 
+    "button": "organizers", 
+  });
+}
+
+
+function email() {
+  mixpanel.track("email button", { 
+    "button": "email", 
+  });
+}
