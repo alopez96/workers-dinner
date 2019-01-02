@@ -41,6 +41,7 @@
 
 .question h4{
     margin-bottom: 1px;
+    font-size: 16px;
 }
 
 .q1{
@@ -76,5 +77,20 @@
     
     .q2{
         display: none;
+    }
+}
+
+/* phone screen */
+@media only screen and (max-width: 950px) {
+    .q1{
+        display: none;
+    }
+    
+    .q2{
+        display: none;
+    }
+
+    .faq{
+        margin: 50px;
     }
 }
