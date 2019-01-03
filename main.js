@@ -50,3 +50,9 @@ function email() {
     "button": "email", 
   });
 }
+
+function vol() {
+  mixpanel.track("volunteer button", { 
+    "button": "volunteer", 
+  });
+}
