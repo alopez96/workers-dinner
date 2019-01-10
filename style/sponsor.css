@@ -43,6 +43,9 @@
     font-family: Berkshire Swash;
 }
 
+.card3 img{
+    border-radius: 2px;
+}
 
 .sponsor img{
     margin: 20px;
