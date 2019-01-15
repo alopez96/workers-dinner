@@ -10,6 +10,7 @@
     text-align: center;
 }
 
+
 .lang-buttons button{
     background: rgb(10, 29, 51);
     border-radius: 5px;
@@ -52,8 +53,15 @@
     font-size: 35px;
 }
 
-.buttons button{
+.primary-btn {
     background: #1D4573;
+}
+
+.secondary-btn {
+    background: #808080;
+}
+
+.buttons button{
     border-radius: 50px;
     font-family: Roboto;
     font-style: normal;
