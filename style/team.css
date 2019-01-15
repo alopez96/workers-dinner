@@ -7,7 +7,7 @@
 }
 
 .team h1{
-    font-family: Berkshire Swash;
+    font-family: 'Oxygen', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -18,17 +18,17 @@
 }
 
 .team img{
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 30px;
     object-fit: cover;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.25);
 }
 
 .person h6{
     text-align: center;
-    font-family: Berkshire Swash;
+    font-family: 'Oxygen', sans-serif;
     color: #1D4573;
     font-weight: normal;
     font-size: 24px;

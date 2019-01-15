@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-
 .lang-buttons button{
     background: rgb(10, 29, 51);
     border-radius: 5px;
@@ -23,14 +22,15 @@
 }
 
 .header h1{
-    font-family: Berkshire Swash;
+    font-family: 'Oxygen', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 90px;
     text-align: center;
-    color: #CC9900;
+    color: #000000;
     position: relative;
+    text-shadow: 2px 2px #c0c0c0;
 }
 
 .header{
@@ -44,7 +44,7 @@
 }
 
 .sub-header{
-    font-family: Montserrat;
+    font-family: 'Oxygen', sans-serif;
     text-align: center;
     color: #000000; 
 }
@@ -54,7 +54,7 @@
 }
 
 .primary-btn {
-    background: #1D4573;
+    background: #5A5757;
 }
 
 .secondary-btn {
@@ -63,11 +63,11 @@
 
 .buttons button{
     border-radius: 50px;
-    font-family: Roboto;
+    font-family: 'Oxygen', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 32px;
+    font-size: 30px;
     padding: 10px 0px 10px 0px;
     text-align: center;
     width: 240px;

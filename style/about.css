@@ -1,12 +1,13 @@
 .about{
     margin: 60px 0px 200px 0px;
-    background-image: url('./../svg/back1.png');
+    /* background-image: url('./../svg/back1.png'); */
     background-repeat: no-repeat;
-    
+    background-color: black;
+    padding: 50px 0px 50px 0px;
 }
 
 .about h1{
-    font-family: Berkshire Swash;
+    font-family: 'Oxygen', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
