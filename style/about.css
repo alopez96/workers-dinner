@@ -1,9 +1,7 @@
 .about{
     margin: 60px 0px 200px 0px;
-    /* background-image: url('./../svg/back1.png'); */
+    background-image: url('./../svg/back1.png');
     background-repeat: no-repeat;
-    background-color: black;
-    padding: 50px 0px 50px 0px;
 }
 
 .about h1{
@@ -13,20 +11,21 @@
     line-height: normal;
     font-size: 90px;
     text-align: center;
-    color: #CC9900;
+    color: #000;
 }
 
-.card{
-    margin: 50px;
-    padding: 50px 50px 20px 50px;
-    width: 450px;
-    background-color: #E0E0E0;
-    border: 1px solid #C4C4C4;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+.about-card{
+    margin: 0px 50px 50px 50px;
+    padding: 50px 80px 50px 80px;
+    width: 550px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card p{
-    line-height: 24px;
+.about-card p{
+    line-height: 26px;
+    font-weight: 600;
 }
 
 .containers{
@@ -39,7 +38,7 @@
 
 /* phone screen */
 @media only screen and (max-width: 450px) {
-    .card{
+    .about-card{
         width:70%;
         padding: 10px;
         margin: 5px;
@@ -54,26 +53,21 @@
     }
 
     .about{
-        margin: 150px 0px 150px 0px;
-    }
+        background-size: 570px 200px;
+    }    
 
 }
 
 
 /* phone screen */
 @media only screen and (max-width: 750px) {
-    .card{
+    .about-card{
         width:70%;
         padding: 10px;
         margin: 5px;
-    }
-
-    .card{
     margin: 20px;
     padding: 20px 20px 10px 20px;
     width: 450px;
-    background-color: #E0E0E0;
-    border: 1px solid #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
 }
 }

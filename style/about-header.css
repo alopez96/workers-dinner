@@ -1,0 +1,18 @@
+.save-the-date h1{
+    font-size: 60px;
+}
+
+.save-the-date h2{
+    font-size: 40px;
+}
+
+.save-the-date h4{
+    font-size: 30px;
+}
+
+.save-the-date{
+    text-align: center;
+    color: black;
+    font-family: 'Barlow';
+    padding-top:50px;
+}
