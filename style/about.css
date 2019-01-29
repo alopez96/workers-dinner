@@ -34,7 +34,9 @@
 }
 
 
-
+.about-title-text{
+    color: #0079D1;
+}
 
 /* phone screen */
 @media only screen and (max-width: 450px) {

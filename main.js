@@ -56,3 +56,9 @@ function vol() {
     "button": "volunteer", 
   });
 }
+
+
+function volunteerBtnClick(){
+  console.log('clicked')
+  alert('Volunteer sign up form coming soon!')
+}

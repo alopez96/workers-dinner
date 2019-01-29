@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <script src="./main.js?3"></script>
+    <script src="./main.js?4"></script>
     <script src="./translation.js"></script>
 
     <!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
@@ -81,7 +81,7 @@
         </div>
 
         <div class='save-the-date' id="about">
-            <h4>Workers' Dinner</h4>
+            <h4 class='about-title-text'>Workers' Dinner</h4>
             <h2>February 16, 2019</h2>
             <h2> 5:00 PM - 7:30 PM </h2>
             <h2>Kresge Town Hall</h2>
@@ -107,7 +107,7 @@
             </div>
             <div class="buttons">
                     <a target="_blank"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSd6_u77IE17miMqA7d489scQFQ_qyA6X1IxfCLw9vHnDzRA9A/viewform?usp=sf_link">
+                    onclick='volunteerBtnClick()'>
                 <button
                 class="primary-btn"
                  onclick="vol()">
