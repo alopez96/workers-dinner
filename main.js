@@ -52,13 +52,7 @@ function email() {
 }
 
 function vol() {
-  mixpanel.track("volunteer button", { 
-    "button": "volunteer", 
-  });
+  console.log('vol clicked')
+  alert('This event has passed, and you can no longer sign up to attend!')
 }
 
-
-function volunteerBtnClick(){
-  console.log('clicked')
-  alert('Volunteer sign up form coming soon!')
-}
