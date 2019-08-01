@@ -55,14 +55,13 @@
 
 
 /* phone screen */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .sponsor{
         margin: 50px;
     }
     
     .sponsor h1{
-        font-size: 40px;
-        width: 100%;
+        font-size: 34px;
     }
     
     .card3{
