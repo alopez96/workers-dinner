@@ -1,7 +1,7 @@
 var arrayLang = {
     'en': {
       'header': 'On The Workers Side',
-      'sub-header': 'Join Our dinner!',
+      'sub-header': 'Thank you to everyone who joined our dinner!',
       'about-btn': 'About',
       'org-btn': 'Organizers',
       'about': 'About',
@@ -37,7 +37,7 @@ var arrayLang = {
     },
       'sp': {
         'header': 'Al Lado De Los Trabajadores',
-        'sub-header': 'Acompáñenos en nuestra cena!',
+        'sub-header': 'Gracias a todos por su apollo!',
         'about-btn': 'Sobre el evento',
         'org-btn': 'Organizadores',
         'about': 'Sobre el evento',
